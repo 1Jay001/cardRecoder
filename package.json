@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "element-ui": "^2.15.14"
+    "@vant/weapp": "^1.11.7"
   }
 }

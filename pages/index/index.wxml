@@ -1,0 +1,17 @@
+<!-- 主页 -->
+<div class="container">
+
+  <div class="avatar">
+    <van-image width="100" height="100" src="https://img.yzcdn.cn/vant/cat.jpeg" />
+  </div>
+  <div class="achievements">
+    历史战绩
+  </div>
+  <div class="footer">
+    <button>创建房间</button>
+    <button>扫码进房</button>
+    <!-- <button bindtap="getInfo">获取用户信息</button> -->
+    <button wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button>
+
+  </div>
+</div>
